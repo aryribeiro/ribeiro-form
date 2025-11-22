@@ -1,7 +1,7 @@
 Obs.: caso o app esteja no modo "sleeping" (dormindo) ao entrar, basta clicar no botão que estará disponível e aguardar, para ativar o mesmo. 
 <img width="736" height="778" alt="print" src="https://github.com/user-attachments/assets/897b8e7b-6147-465d-8590-a57186661eb2" />
 
-Sistema completo de formulários web com painel administrativo e integração com Gmail **Ribeiro Forms** é uma alternativa open-source ao Google Forms e Microsoft Forms, construída com Python e Streamlit. Oferece um sistema completo de criação e gerenciamento de formulários com envio automático de respostas via email.
+Sistema completo de formulários web com painel administrativo e integração com Gmail. O web app **Ribeiro Forms** é uma alternativa open-source ao Google Forms e Microsoft Forms, construída com Python e Streamlit. Oferece um sistema completo de criação e gerenciamento de formulários com envio automático de respostas via email.
 
 ---
 
@@ -349,4 +349,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 
 Desenvolvido com ❤️ usando Python e Streamlit por **Ary Ribeiro**: aryribeiro@gmail.com
+
 
