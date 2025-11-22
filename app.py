@@ -758,7 +758,7 @@ def main():
         page_title="Ribeiro Forms",
         page_icon="📝",
         layout="centered",
-        initial_sidebar_state="collapsed"
+        initial_sidebar_state="auto"
     )
     
     # Inicializar banco de dados
