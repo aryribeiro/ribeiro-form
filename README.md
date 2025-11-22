@@ -48,7 +48,7 @@ Sistema completo de formulários web com painel administrativo e integração co
 ### 1. Clone ou baixe o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/ribeiro-forms.git
+git clone https://github.com/aryribeiro/ribeiro-forms.git
 cd ribeiro-forms
 ```
 
@@ -349,5 +349,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 
 Desenvolvido com ❤️ usando Python e Streamlit por **Ary Ribeiro**: aryribeiro@gmail.com
+
 
 
