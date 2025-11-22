@@ -1,10 +1,6 @@
-# 📝 Ribeiro Forms
+<img width="736" height="778" alt="print" src="https://github.com/user-attachments/assets/897b8e7b-6147-465d-8590-a57186661eb2" />
 
 > Sistema completo de formulários web com painel administrativo e integração com Gmail
-
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0-FF4B4B.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 **Ribeiro Forms** é uma alternativa open-source ao Google Forms e Microsoft Forms, construída com Python e Streamlit. Oferece um sistema completo de criação e gerenciamento de formulários com envio automático de respostas via email.
 
@@ -351,5 +347,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ---
 
 ## 👨‍💻 Autor
+
 
 Desenvolvido com ❤️ usando Python e Streamlit por **Ary Ribeiro**: aryribeiro@gmail.com
