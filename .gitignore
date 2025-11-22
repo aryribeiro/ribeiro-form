@@ -1,0 +1,5 @@
+.env
+*.db
+prompt.txt
+logos/
+uploads/
