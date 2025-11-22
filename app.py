@@ -87,7 +87,7 @@ def init_db():
     # Configurações iniciais
     c.execute("SELECT value FROM config WHERE key='title'")
     if not c.fetchone():
-        c.execute("INSERT INTO config VALUES ('title', 'Ribeiro Forms')")
+        c.execute("INSERT INTO config VALUES ('title', '📝 Ribeiro Forms')")
         c.execute("INSERT INTO config VALUES ('description', 'Preencha o formulário abaixo')")
         
         # Hash da senha padrão
