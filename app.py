@@ -758,7 +758,7 @@ def main():
         page_title="Ribeiro Forms",
         page_icon="📝",
         layout="centered",
-        initial_sidebar_state="auto"
+        initial_sidebar_state="expanded"
     )
     
     # Inicializar banco de dados
@@ -875,10 +875,16 @@ st.markdown("""
         padding-top: 1rem;
         padding-bottom: 0rem;
     }
-    /* Esconde completamente todos os elementos da barra padrão do Streamlit */
-    header {display: none !important;}
-    footer {display: none !important;}
-    #MainMenu {display: none !important;}
+    /* Esconde o menu principal e footer, MAS mantém o botão do sidebar */
+    #MainMenu {visibility: hidden !important;}
+    footer {visibility: hidden !important;}
+    
+    /* Mantém o botão de toggle do sidebar visível */
+    button[kind="header"] {
+        display: block !important;
+        visibility: visible !important;
+    }
+    
     /* Remove qualquer espaço em branco adicional */
     div[data-testid="stAppViewBlockContainer"] {
         padding-top: 0 !important;
@@ -893,6 +899,13 @@ st.markdown("""
     .element-container {
         margin-top: 0 !important;
         margin-bottom: 0 !important;
+    }
+    
+    /* Garante que o header com o botão do sidebar fique visível */
+    header[data-testid="stHeader"] {
+        display: block !important;
+        visibility: visible !important;
+        background-color: transparent !important;
     }
 </style>
 """, unsafe_allow_html=True)
